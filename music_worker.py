@@ -15,7 +15,17 @@ def emit(kind, **payload):
 def run(request):
     import numpy as np
     import soundfile as sf
-    from pymss import MSSeparator, download_model, resolve_model
+    try:
+        import torch
+        import av
+        from pymss import MSSeparator, download_model, resolve_model
+    except (ImportError, OSError) as exc:
+        raise RuntimeError(
+            "音乐分离依赖缺失或无法加载。请关闭程序，在项目目录运行 "
+            "setup_music_windows.bat，确认安装成功后用 run_windows.bat 启动。"
+            "\n非 Windows 系统请在当前 Python 环境安装 PyTorch 和 requirements-music.txt。"
+            f"\n当前 Python：{sys.executable}\n原始错误：{exc}"
+        ) from exc
     from core import audio_io
     from core.music import resample_audio
 

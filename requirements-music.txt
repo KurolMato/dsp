@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
 # 音乐分离扩展：建议 Python 3.12，先安装适合机器的 CPU / CUDA PyTorch。
 -r requirements.txt
+torch>=2.7.1
 pymss==2.1.7

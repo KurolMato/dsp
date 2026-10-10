@@ -31,6 +31,8 @@ cd dsp
 
 以后直接双击 `run_windows.bat`。已有项目目录可以直接使用，不需要再克隆一份。
 
+如果音乐分离提示 `No module named 'torch'`，关闭程序后运行 `setup_music_windows.bat`，安装成功后再用 `run_windows.bat` 启动。模型资源包不包含 Python 依赖，每台电脑都需要安装。2026-10-11 已补上启动时的音乐依赖检查和安装后的实际导入验证，详见 [音乐依赖修复说明](docs/更新说明_2026-10-11_音乐依赖.md)。
+
 **换电脑不要携带虚拟环境作为可运行依赖。** `.venv` / `.venv-speakers` 的 `pyvenv.cfg` 会记录创建时的 Python 安装位置，复制后可能出现 `No Python at ...`。新启动器已加入检测：发现失效环境后改名保留，使用目标电脑的 64 位 Python 3.12 重建；模型和音频保留。详见 [换电脑启动修复说明](docs/更新说明_2026-10-10_换电脑启动.md)。
 
 在其他 Windows 电脑上，安装 64 位 Python 3.12，先运行 `setup_music_windows.bat`，双人分离再运行 `setup_speakers_windows.bat`，最后运行 `run_windows.bat`。三个脚本均通过同目录 `bootstrap_windows.ps1` 检测/重建环境；需要一起复制。安装依赖需联网，模型已经带上时无需重新下载模型。

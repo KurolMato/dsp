@@ -169,7 +169,7 @@ try {
     }
     $installMode = $Mode
     if ($Mode -eq 'run') {
-        $dependencyCode = 'import numpy,scipy,matplotlib,sounddevice,soundfile,onnxruntime'
+        $dependencyCode = 'import numpy,scipy,matplotlib,sounddevice,soundfile,onnxruntime,torch,av; from pymss import MSSeparator,download_model,resolve_model'
         $previousPreference = $ErrorActionPreference
         $ErrorActionPreference = 'Continue'
         try { & $envPython '-c' $dependencyCode 2>$null; $dependenciesReady = $LASTEXITCODE -eq 0 }
@@ -186,6 +186,10 @@ try {
         Invoke-Python $envPython @('-X','utf8','-m','pip','install','-r',(Join-Path $ProjectRoot 'requirements.txt'))
     }
     if ($installMode -ne 'none') { Invoke-Python $envPython @('-X','utf8','-m','pip','check') }
+    if ($installMode -eq 'music') {
+        # pip check only checks package metadata, not whether native libraries load.
+        Invoke-Python $envPython @('-X','utf8','-c','import torch,av; from pymss import MSSeparator,download_model,resolve_model; print("Music dependencies OK")')
+    }
     if ($Mode -eq 'run') {
         Invoke-Python $envPython @('-X','utf8',(Join-Path $ProjectRoot 'check_env.py'))
         Invoke-Python $envPython @('-X','utf8',(Join-Path $ProjectRoot 'app.py'))
