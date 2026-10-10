@@ -9,9 +9,8 @@ __pycache__/
 .coverage
 htmlcov/
 
-# Personal recordings, generated results, old patches and experiments.
+# Generated results, old patches and experiments.
 backups/
-recordings/
 results/
 release/
 models_loo/
