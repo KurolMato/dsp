@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "repository": "KurolMato/dsp",
+  "tag": "assets-20261010",
+  "source_commit": "6a97b3843affd6c69001a0656c5fe80851b8da10",
+  "assets": [
+    {
+      "filename": "all-models.zip",
+      "bytes": 608499160,
+      "sha256": "c455ac51b6693e47b58c626ff9b1150db598f587c4fd0c6aa6c4a1a4227f4efa",
+      "files": 42,
+      "uncompressed_bytes": 652463305,
+      "folders": [
+        "models",
+        "models_loo"
+      ],
+      "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/all-models.zip"
+    },
+    {
+      "filename": "training-noise-bank.zip",
+      "bytes": 1051542414,
+      "sha256": "7f8834bb02cbcac3930289612bf6fcb6ab894a0c872f5981ec50798a9eb83cd0",
+      "files": 170,
+      "uncompressed_bytes": 1537180060,
+      "folders": [
+        "models/noise_bank"
+      ],
+      "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/training-noise-bank.zip"
+    },
+    {
+      "filename": "windows-main-venv-py312.zip",
+      "bytes": 424515526,
+      "sha256": "9d369fea552bbbb855c8a2fce318bee1532a37c9e554ef73ee670f955bf38893",
+      "files": 33202,
+      "uncompressed_bytes": 1249025311,
+      "folders": [
+        ".venv"
+      ],
+      "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip"
+    },
+    {
+      "filename": "windows-speakers-venv-py312.zip",
+      "bytes": 409212807,
+      "sha256": "1b8bf542774ad5162d0294f311d8b8958691da5a8064cc184ba2a45fbe756bcf",
+      "files": 25776,
+      "uncompressed_bytes": 1677427468,
+      "folders": [
+        ".venv-speakers"
+      ],
+      "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip"
+    }
+  ],
+  "recordings": {
+    "location": "Git main: recordings/",
+    "files": 5
+  },
+  "notes": [
+    "Archives preserve project-relative folder names.",
+    "Windows virtual environments are snapshots; rebuild them on another computer.",
+    "Releases do not synchronize automatically with git pull."
+  ]
+}
