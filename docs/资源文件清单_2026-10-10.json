@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "date": "2026-10-10",
   "repository": "KurolMato/dsp",
   "tag": "assets-20261010",
@@ -27,134 +27,6 @@
         "models/noise_bank"
       ],
       "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/training-noise-bank.zip"
-    },
-    {
-      "filename": "windows-main-venv-py312.zip",
-      "bytes": 424515526,
-      "sha256": "9d369fea552bbbb855c8a2fce318bee1532a37c9e554ef73ee670f955bf38893",
-      "files": 33202,
-      "uncompressed_bytes": 1249025311,
-      "folders": [
-        ".venv"
-      ],
-      "parts": [
-        {
-          "filename": "windows-main-venv-py312.zip.part001",
-          "bytes": 52428800,
-          "sha256": "0f5129e36252083f7be9998674414dbef8554a2a6fc3863e6786f4a987298044",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part001"
-        },
-        {
-          "filename": "windows-main-venv-py312.zip.part002",
-          "bytes": 52428800,
-          "sha256": "a990232332c2ea4275a75a46d24bc51b1a1a4c6a1862e74add39f8fc832dacbb",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part002"
-        },
-        {
-          "filename": "windows-main-venv-py312.zip.part003",
-          "bytes": 52428800,
-          "sha256": "6092cd79be8da456ae92d6edcb3ad55d7361253b1e617aeac5f48e2b0efbb3a8",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part003"
-        },
-        {
-          "filename": "windows-main-venv-py312.zip.part004",
-          "bytes": 52428800,
-          "sha256": "79e1d2b25488e4869626cdd1585b720c60575cbb7c3d23214bafa618dc18c5b2",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part004"
-        },
-        {
-          "filename": "windows-main-venv-py312.zip.part005",
-          "bytes": 52428800,
-          "sha256": "371562b2dacfa025f3fc91ad3cf55b98a371f898fef60d661e63545a81bf5c59",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part005"
-        },
-        {
-          "filename": "windows-main-venv-py312.zip.part006",
-          "bytes": 52428800,
-          "sha256": "c3385fb00dfac5b2b2eea46e58c967b6cf4a06a1027aaa4e98ae0ef7622cddbc",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part006"
-        },
-        {
-          "filename": "windows-main-venv-py312.zip.part007",
-          "bytes": 52428800,
-          "sha256": "238665643a21b16a905261b23fa3e4c65312d3af5f4bdbed441216d05b4b4380",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part007"
-        },
-        {
-          "filename": "windows-main-venv-py312.zip.part008",
-          "bytes": 52428800,
-          "sha256": "7c399bba53d6e26c89f4e960ffafefb1d6e64ef097afc0fd14aa1ec62f9859ed",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part008"
-        },
-        {
-          "filename": "windows-main-venv-py312.zip.part009",
-          "bytes": 5085126,
-          "sha256": "4b255395c24e5a78c97bc232236a26be747f7a150308e6ee17f4621ca27933aa",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-main-venv-py312.zip.part009"
-        }
-      ],
-      "storage": "multipart"
-    },
-    {
-      "filename": "windows-speakers-venv-py312.zip",
-      "bytes": 409212807,
-      "sha256": "1b8bf542774ad5162d0294f311d8b8958691da5a8064cc184ba2a45fbe756bcf",
-      "files": 25776,
-      "uncompressed_bytes": 1677427468,
-      "folders": [
-        ".venv-speakers"
-      ],
-      "parts": [
-        {
-          "filename": "windows-speakers-venv-py312.zip.part001",
-          "bytes": 52428800,
-          "sha256": "31e0753e8b9bf194a566311d4a4fc4501c5555e63f33aeb68afa9fbbf69ce36c",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip.part001"
-        },
-        {
-          "filename": "windows-speakers-venv-py312.zip.part002",
-          "bytes": 52428800,
-          "sha256": "7ca2108630f105b1a18f0ca676bb45b9c63b1efef6687159ba0eaa8ab4d6859a",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip.part002"
-        },
-        {
-          "filename": "windows-speakers-venv-py312.zip.part003",
-          "bytes": 52428800,
-          "sha256": "44aa47ce46d383e6ad903fffe34935bfb71d37ddacd8388240367c814cbf7ec5",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip.part003"
-        },
-        {
-          "filename": "windows-speakers-venv-py312.zip.part004",
-          "bytes": 52428800,
-          "sha256": "715d35f224060bd47104d63368bac61961712bdff691f45d9ef402c910ab1a73",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip.part004"
-        },
-        {
-          "filename": "windows-speakers-venv-py312.zip.part005",
-          "bytes": 52428800,
-          "sha256": "4e9062210f16aad7d0a1c2a99583c283a9dcdc1bad329eaed1be88f95dad45d7",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip.part005"
-        },
-        {
-          "filename": "windows-speakers-venv-py312.zip.part006",
-          "bytes": 52428800,
-          "sha256": "915ef2efb7a3c4307b4ce665829d60515878070d4b42adf9608fd2d5b1a7b115",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip.part006"
-        },
-        {
-          "filename": "windows-speakers-venv-py312.zip.part007",
-          "bytes": 52428800,
-          "sha256": "c35a3ba4dd10f11b3b1c896a3c6fdba4b17e42daf2bfff2ac198fe409b81689c",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip.part007"
-        },
-        {
-          "filename": "windows-speakers-venv-py312.zip.part008",
-          "bytes": 42211207,
-          "sha256": "ecf3a5093e7f8dd7647c5af2fb0482ab6cebf4eaae34145c9ed72507b6879058",
-          "url": "https://github.com/KurolMato/dsp/releases/download/assets-20261010/windows-speakers-venv-py312.zip.part008"
-        }
-      ],
-      "storage": "multipart"
     }
   ],
   "recordings": {
@@ -163,8 +35,7 @@
   },
   "notes": [
     "Archives preserve project-relative folder names.",
-    "Windows virtual environments are snapshots; rebuild them on another computer.",
-    "Releases do not synchronize automatically with git pull.",
-    "Environment ZIPs use 50 MiB parts after a large-upload timeout. Assemble and check the original ZIP SHA256 before extracting."
+    "Windows virtual environment uploads were cancelled by the user and are excluded from this release.",
+    "Releases do not synchronize automatically with git pull."
   ]
 }
