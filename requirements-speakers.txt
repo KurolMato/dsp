@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+# 独立 .venv-speakers 环境，避免改变音乐分离的 PyTorch / pymss。
+# 先从官方 CPU wheel 索引安装匹配的 torch==2.7.1 / torchaudio==2.7.1。
+torch==2.7.1
+torchaudio==2.7.1
+speechbrain==1.0.3
+huggingface-hub>=0.30,<1
+numpy>=1.26,<3
+scipy>=1.12
+soundfile>=0.12
+requests>=2.32
+av>=14

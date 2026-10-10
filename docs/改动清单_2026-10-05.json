@@ -1,0 +1,387 @@
+{
+  "date": "2026-10-05",
+  "project": "E:\\dsp\\dsp_py",
+  "baseline": "E:\\dsp\\dsp_py\\backups\\before_music_20261005",
+  "added_files": 11,
+  "modified_files": 29,
+  "changes": [
+    {
+      "path": ".gitignore",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "8bfc767c4813dbd4570c1a7e3bfd9fd23221da084371f5115fd0df6130b44655",
+      "lines_added": 10,
+      "lines_removed": 0
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "sha256_before": "7f3768eb49bb12bab8fd7964f775e66fd6f6a2eab4fc68a497e7de75c32041a6",
+      "sha256_after": "88d18cd3219bd8b43a9d09e0721b06a66c1338e516214c41c3415bb02c54688b",
+      "lines_added": 61,
+      "lines_removed": 372
+    },
+    {
+      "path": "ab_listen.py",
+      "status": "modified",
+      "sha256_before": "33f7ff144485cb37e552614d5756d25b5da4c47fcc53806bcfd9f3897ad8b830",
+      "sha256_after": "662340338f061474a96f439bb2f4718dd4b13cdd40123860e2418442446fe2aa",
+      "lines_added": 3,
+      "lines_removed": 3
+    },
+    {
+      "path": "app.py",
+      "status": "modified",
+      "sha256_before": "11d1ad5a281fd367b7c2a9c04cd732f3fb09f8e1d1ca2ffb343f3ce96e2938e9",
+      "sha256_after": "90e926c9badc0896e2e1ab738d2d9cf37c3ada54754a7c27571c89fe0fa35329",
+      "lines_added": 226,
+      "lines_removed": 202
+    },
+    {
+      "path": "bench_models.py",
+      "status": "modified",
+      "sha256_before": "77012c9506b7671f19e1658f2e5a077246135dc48fa292c7e51b43f35fc0bfed",
+      "sha256_after": "a211aef270b6c446c0115835064d4ad7a3bb65f9562cf7e53ac94d233cb27ac0",
+      "lines_added": 14,
+      "lines_removed": 13
+    },
+    {
+      "path": "check_corpus.py",
+      "status": "modified",
+      "sha256_before": "4d226b846c538fe7ec280902899c245332cba65b811cd810444e38cb95d93a3b",
+      "sha256_after": "c9f9bd7a3b4d0bc62ca9c04cbed8042ba1720cf5fb12d0073f9776cf86d083a1",
+      "lines_added": 5,
+      "lines_removed": 12
+    },
+    {
+      "path": "check_env.py",
+      "status": "modified",
+      "sha256_before": "e1ab18c72c1a01306bac3f115a6cbef07f3d65f19c06a0701802eed7b8dae61c",
+      "sha256_after": "574fdf127575d6a7b57602f2045529294d4e84dfc561e1e8839dcb28ea19858f",
+      "lines_added": 13,
+      "lines_removed": 2
+    },
+    {
+      "path": "compare_methods.py",
+      "status": "modified",
+      "sha256_before": "8ee8581dc02f22458faaa096311529688b491800086e8b838dc78b53a299cfcd",
+      "sha256_after": "7d6323d43056571bd58a579eb12f5e19b010b5aa70d423ba9f13345a6e9f77d6",
+      "lines_added": 11,
+      "lines_removed": 10
+    },
+    {
+      "path": "core/audio_io.py",
+      "status": "modified",
+      "sha256_before": "d5ea3a15ec503c355a5f4c1e05222974bd91f2c11c0c419dfceae803e6bf241f",
+      "sha256_after": "12a71593ffcbb5e6ff2c00abaafa39ab3df651d206ef5c1ca84b604712b6b14a",
+      "lines_added": 27,
+      "lines_removed": 4
+    },
+    {
+      "path": "core/corpus.py",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "e948d831e4d674ea42c472d994f45b0aaf33d794beb0235f5eec6212e39d8efa",
+      "lines_added": 119,
+      "lines_removed": 0
+    },
+    {
+      "path": "core/data.py",
+      "status": "modified",
+      "sha256_before": "c48e805156f32a2ce1643baf234ef53dfc057541c6cc4ca66054b9a41f093ab8",
+      "sha256_after": "333eb6ce468721624306639ea631bb507af8131a64c6750ffb591c964ac7020b",
+      "lines_added": 10,
+      "lines_removed": 7
+    },
+    {
+      "path": "core/dsp.py",
+      "status": "modified",
+      "sha256_before": "790fa7933a3643d554b9bed590981294a4c5952e507f601af94392fbfe26309d",
+      "sha256_after": "a4a90167893180fa97a369a1a2fb3a5a48f84db51448787c40cdebeb5830f241",
+      "lines_added": 8,
+      "lines_removed": 5
+    },
+    {
+      "path": "core/enhance.py",
+      "status": "modified",
+      "sha256_before": "0497e9416bf008136a41040798d434252c858077e8c5b832588467d7b3a99eec",
+      "sha256_after": "cde4dd518a23003bd3da8eca07bf33244d9d03b3627aea7aa757a580ade612e3",
+      "lines_added": 41,
+      "lines_removed": 41
+    },
+    {
+      "path": "core/gtcrn.py",
+      "status": "modified",
+      "sha256_before": "a8090dab79644834db6acea88f2a8c17406f19ffde18d0879d031d5702af3859",
+      "sha256_after": "9b349060a09ed1e7d2e37bfa4270fab0614c0beb899ca6eedf316b01253c8d8d",
+      "lines_added": 13,
+      "lines_removed": 2
+    },
+    {
+      "path": "core/metrics.py",
+      "status": "modified",
+      "sha256_before": "2b6765f555a77435b3a19b5da2a167078967c29a6dc79d994d1a7e007cba705d",
+      "sha256_after": "73f588bcd9088a610c2b7f7de73cb4620383648d494a3367966e8c2661802dc3",
+      "lines_added": 26,
+      "lines_removed": 30
+    },
+    {
+      "path": "core/model.py",
+      "status": "modified",
+      "sha256_before": "d26a2a788de632816fd2cbcac6e50f58d393735b11b5e041561d754a067a9c50",
+      "sha256_after": "1ff47e4a90fa2cae446644e5d26580a565232c2d0c8bd40ae046770e13c3fbfa",
+      "lines_added": 57,
+      "lines_removed": 7
+    },
+    {
+      "path": "core/music.py",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "70a8c73391b757a2147a2cedbb4e2fdf1144d9323b80076dd7ea83db89a5ee1d",
+      "lines_added": 226,
+      "lines_removed": 0
+    },
+    {
+      "path": "core/tasks.py",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "730133aec880549f7be6acc4893541a98fb34c3366a95ce833f1ea0ad0661cd4",
+      "lines_added": 51,
+      "lines_removed": 0
+    },
+    {
+      "path": "diagnose_mp3.py",
+      "status": "modified",
+      "sha256_before": "ffa8307307e2f32e3c56ef5d5a36460bad35d26fe98fad9b12a4bbf2301784c5",
+      "sha256_after": "51cc56f1d412250735e8c7846a2217f97051692b09358d43abe1c4c06f25425b",
+      "lines_added": 1,
+      "lines_removed": 1
+    },
+    {
+      "path": "diagnose_noisy.py",
+      "status": "modified",
+      "sha256_before": "cf66acb79d61be062e32d170bf66f051e1bd35713323782a77f906c75ade9b3a",
+      "sha256_after": "b5bf80e5a40664908129134cb827e84e8e1031b9977adc8fe6446d6fcb75693e",
+      "lines_added": 3,
+      "lines_removed": 3
+    },
+    {
+      "path": "diagnose_reference.py",
+      "status": "modified",
+      "sha256_before": "3e41a95231e0a597d2b6f5b1d597b8c2f050ec8dae7a47d7ef4c3d281b5580db",
+      "sha256_after": "245ba5c7499c4f30df0a9ca9476b24e35eb44533df504436a445cbfd0ea2895c",
+      "lines_added": 2,
+      "lines_removed": 2
+    },
+    {
+      "path": "docs/更新说明_2026-10-05.md",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "687c1011e42955ba41e800ff82dbcfa6c808199beaeb9a3ba1ed4d50e43e6cb0",
+      "lines_added": 125,
+      "lines_removed": 0
+    },
+    {
+      "path": "docs/机器学习降噪说明.md",
+      "status": "modified",
+      "sha256_before": "f49718cdcff04be3ce0442fa7988dad336a25a8eb28e430604fc06c6aa7a0122",
+      "sha256_after": "94960808e9e079ca05c8e85c9392ac160364f596d9054a07c8389f9edc17953c",
+      "lines_added": 2,
+      "lines_removed": 0
+    },
+    {
+      "path": "docs/项目总览.md",
+      "status": "modified",
+      "sha256_before": "63c07dd715d5416ea013ca88e786f87b3f8f07ae657c0abe163a07f08b3b9ed1",
+      "sha256_after": "a4e05ffe1ff43ab61767b8055d68d93963e87cd0e32644d689efc6e749185969",
+      "lines_added": 2,
+      "lines_removed": 0
+    },
+    {
+      "path": "eval_compare.py",
+      "status": "modified",
+      "sha256_before": "597c81ef2071369f64f348daac866624717dd1c898bcbb20f2527cf494bc0e92",
+      "sha256_after": "cb75241b1f5d2b41a596db9d50d6f533898ea437f89a470dd2e6846f525627a3",
+      "lines_added": 16,
+      "lines_removed": 17
+    },
+    {
+      "path": "make_demo.py",
+      "status": "modified",
+      "sha256_before": "6414947a53ce84b415007e9f5a3ee2eaf8b6874507f121103b0a56e77e02c3b1",
+      "sha256_after": "ebc851acf732afbe32831fc8e8ced95eb9e1a91fc42b2f7b642bd8544d9071d5",
+      "lines_added": 2,
+      "lines_removed": 2
+    },
+    {
+      "path": "music_panel.py",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "79bd08415986e268fbb5013d2d0dce5af5e3c6843dd2bf6be749c0c4230e816a",
+      "lines_added": 422,
+      "lines_removed": 0
+    },
+    {
+      "path": "music_worker.py",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "e981f89b1a29d16211e4c9f4a98a2e4ba040e20d91ae0fab6cadab5ae10e276e",
+      "lines_added": 96,
+      "lines_removed": 0
+    },
+    {
+      "path": "requirements-lock-win-py312.txt",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "c1a3a08054878bc0e5724c01a3fa42bc1e2f8a03ef63bb10079ddaedece5a0bd",
+      "lines_added": 54,
+      "lines_removed": 0
+    },
+    {
+      "path": "requirements-music.txt",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "37807c650ba4f7770d7ca0ad9c09bd13feed17e6afb550dc6f9f1f1660b196a9",
+      "lines_added": 4,
+      "lines_removed": 0
+    },
+    {
+      "path": "requirements.txt",
+      "status": "modified",
+      "sha256_before": "f02fcdb55354e84d02d222ba3d2a5b2bfaf3ca1c854f4bb57ebea2337bdf02cc",
+      "sha256_after": "781eddc60a8c48bfe02d303255fff078b84739bbfc4c804d400772ca683aa242",
+      "lines_added": 5,
+      "lines_removed": 4
+    },
+    {
+      "path": "run_unix.sh",
+      "status": "modified",
+      "sha256_before": "03fe1b2c4c9119ec2b1d1401f89b1002735a41403249ed40f55dbfb7891270b4",
+      "sha256_after": "d19737da9b6bc6d7f5b7e501b121a2e309fc50ca5ed0470112d4914583deb7bf",
+      "lines_added": 7,
+      "lines_removed": 40
+    },
+    {
+      "path": "run_windows.bat",
+      "status": "modified",
+      "sha256_before": "8c610ac14d654b84a3ccc9e5f71ed5f78eabc02d51e15fe29c3d9d16706c01a8",
+      "sha256_after": "9d63af9c1293071bf4841ffcdf8e1ffe37a24d474cb9c18f4cfadc572cc267fa",
+      "lines_added": 6,
+      "lines_removed": 66
+    },
+    {
+      "path": "setup_music_windows.bat",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "8dc32069d0522b7c49769047e2a5d8131f39b54d99e36834c9359e2d14455fa5",
+      "lines_added": 24,
+      "lines_removed": 0
+    },
+    {
+      "path": "smoke_test.py",
+      "status": "modified",
+      "sha256_before": "cf5be8bb8b32d5d20ca75670a5f68b03432943571c0b7f45c608d9993a24590b",
+      "sha256_after": "cc8f91a6e7f68ba7349cc388145f351d2d0cde29aaa67e4e04e4b7c28a707a68",
+      "lines_added": 2,
+      "lines_removed": 1
+    },
+    {
+      "path": "test_overfit.py",
+      "status": "modified",
+      "sha256_before": "bc845e099cee6b752cac41d8041f408dcbb30ea4c409b053c88cf06924f38e2e",
+      "sha256_after": "291d007000a299686c27a8eebe9c3fc63aa2512528e8f5a60f2230e00b8703ec",
+      "lines_added": 15,
+      "lines_removed": 7
+    },
+    {
+      "path": "train_model.py",
+      "status": "modified",
+      "sha256_before": "eba459d187c7623bf20c813ac354bcf24859d7cf634967a689d60d54ae27d054",
+      "sha256_after": "244327681ba8fdf382f280090a1210b9b34980ce067edad04322fe2df7588f86",
+      "lines_added": 39,
+      "lines_removed": 33
+    },
+    {
+      "path": "verify_gui.py",
+      "status": "modified",
+      "sha256_before": "1055b5779230175e9dfdb7b197b0bf4f9e92177d959298f40ba2e6cef03ecd24",
+      "sha256_after": "26aeb331dd568ee99c656c2cb6a278494803550911d3d984e61c405e4741408c",
+      "lines_added": 3,
+      "lines_removed": 0
+    },
+    {
+      "path": "verify_interactions.py",
+      "status": "modified",
+      "sha256_before": "83e483d2ffe9ed3fbd38089128a3b6e5dc23c0268b6b556af8f305a30c1a7ac1",
+      "sha256_after": "b6b71989a6f0e1f12bdaffa1e4377e87cdf6800df0abb3c9e64e599724587207",
+      "lines_added": 2,
+      "lines_removed": 1
+    },
+    {
+      "path": "verify_update.py",
+      "status": "added",
+      "sha256_before": null,
+      "sha256_after": "16b9aa7695721f823bca5932adf088986a4025b384bd8804666915addbc5efd9",
+      "lines_added": 425,
+      "lines_removed": 0
+    }
+  ],
+  "assets": [
+    {
+      "path": "models/music/legacy_vr/vr_instrumental_extraction/1_HP-UVR.pth",
+      "bytes": 126792647,
+      "sha256": "d9c654305888fe09668078ade76962b32d3782848f158192da7403a650e935a6"
+    },
+    {
+      "path": "models/music/legacy_vr/vr_instrumental_extraction/1_HP-UVR.yaml",
+      "bytes": 1198,
+      "sha256": "d563b6982bfdf43706e7b7f95d96306fb4efda71fe99fee579179d5fa2a1b005"
+    },
+    {
+      "path": "models/music/music_stems/four_stem/HTDemucs4.th",
+      "bytes": 84141911,
+      "sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4"
+    },
+    {
+      "path": "models/music/music_stems/four_stem/HTDemucs4.yaml",
+      "bytes": 1826,
+      "sha256": "340cd3f1f00f75f521a38235f7689d95a9e820738439561ca79818e54bc8863a"
+    },
+    {
+      "path": "models/music/vocal/vocal_extraction/bs_roformer_voc_hyperacev2.ckpt",
+      "bytes": 288724430,
+      "sha256": "54cf516f621f2f460bf660ed137e244b8931bf7a2ce85ddceecff816dbc4d668"
+    },
+    {
+      "path": "models/music/vocal/vocal_extraction/bs_roformer_voc_hyperacev2.yaml",
+      "bytes": 1974,
+      "sha256": "18c9edecb4168e92b3aaba6b3b9c22448b3a4ebc445becc4b4ae808e57d29f7f"
+    },
+    {
+      "path": "models/runs/20261005_fixed_full/denoise_mlp.npz",
+      "bytes": 9791312,
+      "sha256": "a8a69aaeee2d979a32db1c931dd486250c8d593fc9e435da3e752566ee0364cb"
+    },
+    {
+      "path": "models/runs/20261005_fixed_full/eval_report.json",
+      "bytes": 2434,
+      "sha256": "4136ac65998625731a3f8cb8de6920ad483a3ac703ca057bb16ca5dc30775a09"
+    },
+    {
+      "path": "models/runs/20261005_fixed_full/split_manifest.json",
+      "bytes": 1269,
+      "sha256": "4ffd3ed525d4ea4b9fa42264bab6d8932f9525fb1b2b966abf9fa13ecbd227a5"
+    },
+    {
+      "path": "models/runs/20261005_fixed_full/training_log.json",
+      "bytes": 2293,
+      "sha256": "697a13fa7766300f9f7b74ddfeae6b8facf74f1737aaab6cc378f27262b7411b"
+    }
+  ],
+  "regression": {
+    "tests": 28,
+    "failures": 0,
+    "errors": 0,
+    "ok": true
+  }
+}

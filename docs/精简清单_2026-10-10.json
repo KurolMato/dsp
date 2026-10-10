@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-10",
+  "deleted": [
+    {
+      "path": "dsp_py/__pycache__",
+      "files": 48,
+      "bytes": 1075797
+    },
+    {
+      "path": "dsp_py/core/__pycache__",
+      "files": 22,
+      "bytes": 355022
+    },
+    {
+      "path": "dsp_py/.cache/archive_inspection",
+      "files": 741,
+      "bytes": 11213190
+    },
+    {
+      "path": "dsp_py/.cache/matplotlib",
+      "files": 2,
+      "bytes": 284161
+    },
+    {
+      "path": "dsp_py/.cache/multi_launcher__5lr1o26",
+      "files": 1035,
+      "bytes": 17158473
+    },
+    {
+      "path": "dsp_py/.cache/multi_launcher_01hj1ed2",
+      "files": 1036,
+      "bytes": 16646119
+    },
+    {
+      "path": "dsp_py/.cache/multi_launcher_3fom9tn0",
+      "files": 1035,
+      "bytes": 17158542
+    },
+    {
+      "path": "dsp_py/.cache/multi_launcher_3lk19j7i",
+      "files": 1036,
+      "bytes": 16646050
+    },
+    {
+      "path": "dsp_py/.cache/multi_launcher_bkzdoee1",
+      "files": 1036,
+      "bytes": 16646804
+    },
+    {
+      "path": "dsp_py/.cache/multi_launcher_lbw_ybnx",
+      "files": 1036,
+      "bytes": 16647032
+    },
+    {
+      "path": "dsp_py/.cache/multi_launcher_p2dw4jra",
+      "files": 1035,
+      "bytes": 17159455
+    },
+    {
+      "path": "dsp_py/.cache/multi_launcher_r5larno0",
+      "files": 1035,
+      "bytes": 17159227
+    },
+    {
+      "path": "dsp_py/.cache/no_python_gkyfsjrb",
+      "files": 2,
+      "bytes": 7928
+    },
+    {
+      "path": "dsp_py/.cache/no_python_h1znprjh",
+      "files": 2,
+      "bytes": 6675
+    },
+    {
+      "path": "dsp_py/.cache/no_python_p084b6mr",
+      "files": 2,
+      "bytes": 6602
+    },
+    {
+      "path": "dsp_py/.cache/no_python_s0zl8zyx",
+      "files": 2,
+      "bytes": 7697
+    },
+    {
+      "path": "dsp_py/.cache/no_python_tng7urue",
+      "files": 2,
+      "bytes": 6675
+    },
+    {
+      "path": "dsp_py/.cache/no_python_ub28ob45",
+      "files": 2,
+      "bytes": 6675
+    },
+    {
+      "path": "dsp_py/.cache/portable_0432lur7",
+      "files": 1034,
+      "bytes": 15096999
+    },
+    {
+      "path": "dsp_py/.cache/portable_0vzxmimu",
+      "files": 1034,
+      "bytes": 15096927
+    },
+    {
+      "path": "dsp_py/.cache/portable_5mt88uaa",
+      "files": 1034,
+      "bytes": 15098507
+    },
+    {
+      "path": "dsp_py/.cache/portable_d21_hjht",
+      "files": 1034,
+      "bytes": 15097525
+    },
+    {
+      "path": "dsp_py/.cache/portable_dsga9rge",
+      "files": 1034,
+      "bytes": 15097594
+    },
+    {
+      "path": "dsp_py/.cache/portable_imt721qa",
+      "files": 1034,
+      "bytes": 15098279
+    },
+    {
+      "path": "dsp_py/.cache/speaker_portable_0vwf2sll",
+      "files": 1032,
+      "bytes": 14815569
+    },
+    {
+      "path": "dsp_py/.cache/speaker_portable_1732m1ho",
+      "files": 1032,
+      "bytes": 14815797
+    },
+    {
+      "path": "dsp_py/.cache/speaker_portable_95cpdo4h",
+      "files": 1032,
+      "bytes": 14814289
+    },
+    {
+      "path": "dsp_py/.cache/speaker_portable_dc3mfo5z",
+      "files": 1032,
+      "bytes": 14814217
+    },
+    {
+      "path": "dsp_py/.cache/speaker_portable_fvb4oqhh",
+      "files": 1032,
+      "bytes": 14814815
+    },
+    {
+      "path": "dsp_py/.cache/speaker_portable_ldz8_9_7",
+      "files": 1032,
+      "bytes": 14814884
+    },
+    {
+      "path": "dsp_py/.cache/wheels",
+      "files": 1,
+      "bytes": 215985616
+    },
+    {
+      "path": "dsp_py/models/speakers/sepformer-wsj02mix/runtime",
+      "files": 5,
+      "bytes": 113144492
+    }
+  ],
+  "deleted_bytes": 656797634,
+  "protected_files_checked": 841,
+  "protected_files_unchanged": true,
+  "runtime_cache_sha256_verified": true,
+  "historical_files_retained": [
+    "dsp_py.7z",
+    "dsp_py/backups",
+    "dsp_py/release"
+  ],
+  "old_archive_entries_checked": 59950,
+  "old_archive_missing_local_paths": 0
+}

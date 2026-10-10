@@ -1,0 +1,40 @@
+# Each computer builds its own environment and caches.
+.venv*/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Personal recordings, generated results, old patches and experiments.
+backups/
+recordings/
+results/
+release/
+models_loo/
+
+# Large downloadable models, training datasets and local training versions.
+models/noise_bank/
+models/music/
+models/speakers/
+models/runs/
+models/dfn3/
+
+# Local configuration and secrets.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
+*.part
+*.7z
+*.zip

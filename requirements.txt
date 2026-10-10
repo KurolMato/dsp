@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+# dsp_py —— 语音信号处理与机器学习降噪系统：运行依赖
+#
+# 语音功能需要 Python 3.10+；含音乐分离推荐 Python 3.12（64 位）。
+# 本次在 Python 3.12 + Windows + CPU 上验证，
+# 换电脑时只要装好 Python 再执行：  pip install -r requirements.txt
+#
+# 语音功能不需要 MATLAB/PyTorch；音乐扩展见 requirements-music.txt。
+numpy>=1.24             # 数值计算（自训练模型的矩阵运算）
+scipy>=1.10             # 信号处理（滤波器、重采样、STFT 辅助）
+matplotlib>=3.7         # 绘图（界面内嵌 + 放大窗口）
+sounddevice>=0.4.6      # 录音 / 播放（Windows/macOS 自带 PortAudio；Linux 需系统装 libportaudio2）
+soundfile>=0.12         # 读取 wav/mp3/flac；M4A 由音乐扩展的 PyAV 解码
+onnxruntime>=1.16       # 跑预训练 GTCRN 降噪模型（纯 CPU 推理，无需 PyTorch）

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "kind": "speaker_separation",
+  "task_id": "default_postprocess_preview",
+  "input": "overlap_mix.wav",
+  "model": "speechbrain/sepformer-wsj02mix",
+  "revision": "3a28263",
+  "device": "cpu",
+  "model_fs": 8000,
+  "fs": 16000,
+  "channels": 1,
+  "input_channels": 1,
+  "samples": 96000,
+  "seconds": 6.0,
+  "overlap_reorders": 0,
+  "chunk_seconds": 8,
+  "overlap_seconds": 1,
+  "chunk_output_gains": [
+    [
+      -0.03788665862625455,
+      0.037399989246037706
+    ]
+  ],
+  "files": {
+    "original": "overlap_mix.wav",
+    "speaker_1": "enhanced_1_GT35.wav",
+    "speaker_2": "enhanced_2_GT35.wav"
+  },
+  "raw_files": {
+    "original": "overlap_mix.wav",
+    "speaker_1": "separated_1.wav",
+    "speaker_2": "separated_2.wav"
+  },
+  "enhanced_files": {
+    "original": "overlap_mix.wav",
+    "speaker_1": "enhanced_1_GT35.wav",
+    "speaker_2": "enhanced_2_GT35.wav"
+  },
+  "audition_version": "enhanced",
+  "postprocess": {
+    "algorithm": "GTCRN blend + soft noise gate",
+    "tracks": {
+      "speaker_1": {
+        "denoise_enabled": true,
+        "denoise_strength": 0.35,
+        "gate_enabled": false,
+        "gate_threshold_db": -45.0,
+        "gate_reduction_db": 18.0,
+        "attack_ms": 8.0,
+        "hold_ms": 120.0,
+        "release_ms": 160.0
+      },
+      "speaker_2": {
+        "denoise_enabled": true,
+        "denoise_strength": 0.35,
+        "gate_enabled": false,
+        "gate_threshold_db": -45.0,
+        "gate_reduction_db": 18.0,
+        "attack_ms": 8.0,
+        "hold_ms": 120.0,
+        "release_ms": 160.0
+      }
+    },
+    "source_task_id": "speaker_reference_validation",
+    "seconds": 0.7819999999992433
+  }
+}

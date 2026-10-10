@@ -1,0 +1,27 @@
+{
+  "fs": 16000,
+  "seconds": 6,
+  "common_gain": 1.0,
+  "sources": [
+    {
+      "source": "samples/demo_speech.wav",
+      "sha256": "b460cee75c1a97cbaed6b9afc6a5df4d101670df21229d8974f4a3d5e7ed7ec1",
+      "offset_seconds": 0.0,
+      "source_gain": 2.4471269291793063,
+      "used_seconds": 4.0
+    },
+    {
+      "source": "samples/manba.wav",
+      "sha256": "a2beea15c031b3e351063af149a753a044f5be362fb91799c5c1a16be6416ffb",
+      "offset_seconds": 0.3,
+      "source_gain": 2.1040189448666,
+      "used_seconds": 4.0
+    }
+  ],
+  "files": {
+    "reference_1": "reference_1.wav",
+    "reference_2": "reference_2.wav",
+    "mixture": "overlap_mix.wav"
+  },
+  "note": "原始两路仅作为测试参考；分离输出不固定对应参考1/2。原录音可能含背景声。"
+}

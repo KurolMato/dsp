@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "kind": "speaker_separation",
+  "task_id": "speaker_reference_validation",
+  "input": "overlap_mix.wav",
+  "model": "speechbrain/sepformer-wsj02mix",
+  "revision": "3a28263",
+  "device": "cpu",
+  "model_fs": 8000,
+  "fs": 16000,
+  "channels": 1,
+  "input_channels": 1,
+  "samples": 96000,
+  "seconds": 6.0,
+  "overlap_reorders": 0,
+  "chunk_seconds": 8,
+  "overlap_seconds": 1,
+  "chunk_output_gains": [
+    [
+      -0.03788665862625455,
+      0.037399989246037706
+    ]
+  ],
+  "files": {
+    "original": "overlap_mix.wav",
+    "speaker_1": "separated_1.wav",
+    "speaker_2": "separated_2.wav"
+  }
+}
